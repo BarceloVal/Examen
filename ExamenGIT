@@ -1,3 +1,10 @@
 Contesta la pregunta y realiza un commit a la rama correspondiente a la pregunta (examenA o examenB).
 
 PREGUNTA B - Explica los cuatro "lugares" donde pueden encontrarse los archivos que forman parte de un repositorio GIT. Nombra el comando para mover un archivo de un espacio a otro con la siguiente sintaxys: [LugarInicial - LugarFinal => comando]
+
+Un archivo puede estar situado en el repsoitorio local, en el repositorio remoto o en el stage. Y dentro de estos puede estar situado en diferentes ramas o commits. Dependiendo de la distrubución de las ramas, el archivo se puede encontrar en la rama main, que sería la principal, o se puede encontrar en un commit de prueba. 
+
+El comando para mover un archivo es: git reset [commit]
+git checkout [commit]
+git add [fichero]
+
